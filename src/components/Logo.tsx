@@ -24,12 +24,8 @@ const Logo: React.FC<LogoProps> = ({ className = "", onClick }) => {
         }
       }}
     >
-      <img 
-        src="/lovable-uploads/a80d0085-705e-42dc-9916-caddbb880246.png" 
-        alt="Pine Study Timer" 
-        className="w-8 h-8 object-contain"
-      />
-      <span className="text-xl font-bold text-primary">Pine</span>
+      <span className="text-2xl">🌲</span>
+      <span className="text-xl font-bold text-primary">Pine Timer</span>
     </div>
   );
 };

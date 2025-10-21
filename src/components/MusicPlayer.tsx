@@ -8,27 +8,63 @@ const musicTracks = [
   {
     id: 1,
     title: 'Lofi Hip Hop Study',
-    url: 'https://www.youtube.com/embed/YOJsKatW-Ts'
+    url: 'https://www.youtube.com/embed/YOJsKatW-Ts',
+    type: 'music'
   },
   {
     id: 2, 
     title: 'Calm Study Beats',
-    url: 'https://www.youtube.com/embed/lA9FONoiuFA'
+    url: 'https://www.youtube.com/embed/lA9FONoiuFA',
+    type: 'music'
   },
   {
     id: 3,
     title: 'Focus Lofi Mix',
-    url: 'https://www.youtube.com/embed/lTRiuFIWV54'
+    url: 'https://www.youtube.com/embed/lTRiuFIWV54',
+    type: 'music'
   },
   {
     id: 4,
     title: 'Study Vibes',
-    url: 'https://www.youtube.com/embed/R1r9nLYcqBU'
+    url: 'https://www.youtube.com/embed/R1r9nLYcqBU',
+    type: 'music'
   },
   {
     id: 5,
     title: 'Peaceful Study',
-    url: 'https://www.youtube.com/embed/D4VpVRtbx7w'
+    url: 'https://www.youtube.com/embed/D4VpVRtbx7w',
+    type: 'music'
+  },
+
+  {
+    id: 6,
+    title: 'Rain Sounds ☔',
+    url: 'https://www.youtube.com/embed/q76bMs-NwRk',
+    type: 'ambient'
+  },
+  {
+    id: 7,
+    title: 'White Noise 📻',
+    url: 'https://www.youtube.com/embed/nMfPqeZjc2c',
+    type: 'ambient'
+  },
+  {
+    id: 8,
+    title: 'Piano Ambience 🎹',
+    url: 'https://www.youtube.com/embed/8plwv25NYRo',
+    type: 'ambient'
+  },
+  {
+    id: 9 ,
+    title: 'Forest Sounds 🌲',
+    url: 'https://www.youtube.com/embed/xNN7iTA57jg',
+    type: 'ambient'
+  },
+  {
+    id: 10,
+    title: 'Flowing Water 💧',
+    url: 'https://www.youtube.com/embed/eKFTSSKCzWA',
+    type: 'ambient'
   }
 ];
 
@@ -67,7 +103,7 @@ const MusicPlayer = () => {
           <div className="space-y-4">
             {/* Header */}
             <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-sm">Lofi Study Beats</h3>
+              <h3 className="font-semibold text-sm">Study Sounds & Ambience</h3>
               <Button
                 variant="ghost"
                 size="sm"
